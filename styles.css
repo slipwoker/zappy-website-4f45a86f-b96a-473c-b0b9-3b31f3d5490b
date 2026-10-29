@@ -8304,6 +8304,32 @@ html[dir="rtl"] section[class*="hero"]:not([data-zappy-bg-overlay-opacity]) > [c
   .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
 }
 
+
+@media (max-width: 768px) {
+.index-hero-section__bg-wrapper > div {
+  background-size: cover !important;
+  background-position: 30% 15% !important;
+}
+}
+
+@media (max-width: 768px) {
+.index-hero-section__bg-wrapper {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 400px !important;
+  min-height: 400px !important;
+  overflow: hidden !important;
+}
+
+.index-hero-section__bg-wrapper > div {
+  height: 400px !important;
+  min-height: 400px !important;
+  background-size: cover !important;
+  background-position: 50% 30% !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
