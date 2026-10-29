@@ -8330,6 +8330,20 @@ html[dir="rtl"] section[class*="hero"]:not([data-zappy-bg-overlay-opacity]) > [c
   background-position: 50% 30% !important;
 }
 }
+
+@media (max-width: 768px) {
+.index-hero-section__bg-wrapper {
+  height: 270px !important;
+  min-height: 270px !important;
+}
+
+.index-hero-section__bg-wrapper > div {
+  height: 270px !important;
+  min-height: 270px !important;
+  background-size: cover !important;
+  background-position: 50% 20% !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
