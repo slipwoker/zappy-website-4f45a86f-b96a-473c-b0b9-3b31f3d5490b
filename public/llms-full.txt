@@ -2,13 +2,13 @@
 
 Bazaly Smile is a specialized dental implant center located in Rishon LeZion, Israel, with 25 years of experience and over 12,000 implants performed. The clinic focuses on basal implantology — an advanced technique that anchors implants in denser, deeper bone layers, making it suitable for patients who were told they lack sufficient bone for traditional implants. Their brand voice is empathetic, confidence-inspiring, and solution-oriented, positioning themselves as the 'second opinion' destination for complex cases. Key differentiators include same-day rehabilitation options, avoidance of sinus lift procedures, and a highly personalized treatment approach.
 
-Source: https://example.com
+Source: https://bazaly-smile-4f45a86f.zappy5.app
 
 ---
 
 ## חיוך חדש ביום אחד — Bazaly Smile
 
-URL: https://example.com
+URL: https://bazaly-smile-4f45a86f.zappy5.app
 Description: טיפול שיניים דחוף ומשפחתי במרכז מתקדם בראשון לציון. מעל 12,000 שתלים ב־25 שנות ניסיון. קבעו פגישת ייעוץ עוד היום וחזרו לחייך בביטחון.
 
 חיוך חדש ביום אחד — Bazaly Smile
@@ -577,7 +577,7 @@ Description: טיפול שיניים דחוף ומשפחתי במרכז מתקד
 
 ## שתלים גם ללא עצם מספקת — Bazaly Smile
 
-URL: https://example.com/basal-implants
+URL: https://bazaly-smile-4f45a86f.zappy5.app/basal-implants
 Description: שתלים בזאליים בשיטה ייחודית שמעגנת שתלים בשכבות עצם עמוקות — ללא הרמת סינוס וללא השתלת עצם. פתרון גם למי שנאמר לו שאין סיכוי. גלו איך.
 
 שתלים גם ללא עצם מספקת — Bazaly Smile
@@ -1002,7 +1002,7 @@ Description: שתלים בזאליים בשיטה ייחודית שמעגנת ש
 
 ## 12,000 חיוכים מוכיחים — Bazaly Smile
 
-URL: https://example.com/results
+URL: https://bazaly-smile-4f45a86f.zappy5.app/results
 Description: סיפורי מטופלים אמיתיים שעברו שיקום פה מלא אצלנו. צפו בתוצאות של שתלים בזאליים שהחזירו את החיוך והביטחון. ההצלחה שלהם יכולה להיות גם שלכם.
 
 12,000 חיוכים מוכיחים — Bazaly Smile
@@ -1522,7 +1522,7 @@ Description: סיפורי מטופלים אמיתיים שעברו שיקום פ
 
 ## 25 שנה של מומחיות אמיתית — Bazaly Smile
 
-URL: https://example.com/about
+URL: https://bazaly-smile-4f45a86f.zappy5.app/about
 Description: הכירו את הצוות שמאחורי מעל 12,000 שתלים מוצלחים. ניסיון של רבע מאה, גישה אישית וטכנולוגיה מתקדמת בראשון לציון. בואו לפגוש אותנו מקרוב.
 
 25 שנה של מומחיות אמיתית — Bazaly Smile
@@ -1925,7 +1925,7 @@ Description: הכירו את הצוות שמאחורי מעל 12,000 שתלים 
 
 ## החיוך החדש מתחיל כאן — Bazaly Smile
 
-URL: https://example.com/contact
+URL: https://bazaly-smile-4f45a86f.zappy5.app/contact
 Description: מוכנים לשמוע חוות דעת שנייה על השיניים שלכם? צרו קשר עוד היום וקבעו פגישת ייעוץ אישית עם המומחים שלנו בראשון לציון. אנחנו כאן בשבילכם.
 
 החיוך החדש מתחיל כאן — Bazaly Smile
@@ -2349,7 +2349,7 @@ Bazaly Smile
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://bazaly-smile-4f45a86f.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -2609,7 +2609,7 @@ Bazaly Smile ("החברה", "אנו", "שלנו") מחויבת להגן על פ�
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://bazaly-smile-4f45a86f.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -2878,7 +2878,7 @@ Bazaly Smile מחויבת להנגיש את השירותים לכלל הציבו
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://bazaly-smile-4f45a86f.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -3166,7 +3166,7 @@ Bazaly Smile מספקת Dental Care דרך האתר. השירותים כפופי
 
 ## תודה שפניתם אלינו | Bazaly Smile
 
-URL: https://example.com/thank-you
+URL: https://bazaly-smile-4f45a86f.zappy5.app/thank-you
 Description: Bazaly Smile - תודה שפניתם אלינו | Bazaly Smile
 
 תודה שפניתם אלינו | Bazaly Smile
