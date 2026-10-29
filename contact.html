@@ -893,7 +893,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0545538268" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -1352,7 +1352,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '054-5538268';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1378,9 +1378,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <h3 class="hero-subtitle">ב-Bazaly Smile אנו מתמחים בשיקום הפה באמצעות שיטות השתלה מתקדמות. גם אם נאמר לכם שאין מספיק עצם להשתלות – כדאי להכיר אפשרות נוספת.</h3>
 
     <div class="hero-contact-row">
-      <a href="tel:" class="hero-phone-link" data-zappy-contact-field="phone">
+      <a href="tel:" class="hero-phone-link" data-zappy-contact-field="phone" style="display:flex;align-items:flex-start;gap:inherit">
         <i class="fas fa-phone-alt" aria-hidden="true"></i>
-        <span>חייגו עכשיו: [business_phone]</span>
+        <span>רוטשילד 35, ראשון לציון, ישראל</span>
       </a>
       <span class="hero-location">
         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
@@ -1456,11 +1456,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <div class="contact-form-section__contact-list">
             <div class="contact-form-section__contact-item" data-zappy-contact-field="phone">
               <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              <a href="tel:[business_phone]" class="contact-form-section__contact-link" style="color: #1A1A1A !important">[business_phone]</a>
+              <a href="tel:054-5538268" class="contact-form-section__contact-link" style="color: #1A1A1A !important">054-5538268</a>
             </div>
             <div class="contact-form-section__contact-item" data-zappy-contact-field="email">
               <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><path d="m22 6-10 7L2 6"></path></svg>
-              <a href="mailto:[business_email]" class="contact-form-section__contact-link" style="color: #1A1A1A !important">[business_email]</a>
+              <a href="mailto:sabahmishel@walla.com" class="contact-form-section__contact-link" style="color: #1A1A1A !important">sabahmishel@walla.com</a>
             </div>
             <div class="contact-form-section__contact-item">
               <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1494,7 +1494,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
                 </div>
                 <h3>טלפון</h3>
                 <p>לשיחת ייעוץ ראשונית ללא עלות, חייגו אלינו ואחד מאנשי הצוות ישמח לסייע.</p>
-                <a href="tel:[business_phone]" class="contact-details-link">054-5538268</a>
+                <a href="tel:054-5538268" class="contact-details-link">054-5538268</a>
             </article>
 
             <!-- Card 2: WhatsApp -->
@@ -1519,7 +1519,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
                 </div>
                 <h3>המיקום שלנו</h3>
                 <p>הקליניקה ממוקמת בלב ראשון לציון, נגישה ובמרחק קצר מחניונים ותחבורה ציבורית.</p>
-                <a href="https://maps.google.com/?q=[business_address]" class="contact-details-link" target="_blank" rel="noopener">ראשון לציון, ישראל</a>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%95%D7%98%D7%A9%D7%99%D7%9C%D7%93%2035%2C%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20%D7%9C%D7%A6%D7%99%D7%95%D7%9F%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" class="contact-details-link" target="_blank" rel="noopener noreferrer">רוטשילד 35, רוטשילד 35, רוטשילד 35, ראשון לציון, ישראל</a>
             </article>
         </div>
 
@@ -1549,7 +1549,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             <div class="contact-details-map-overlay">
                 <div class="contact-details-map-text">
                     <span>Bazaly Smile</span>
-                    <p>ראשון לציון, ישראל</p>
+                    <p>רוטשילד 35, רוטשילד 35, רוטשילד 35, ראשון לציון, ישראל</p>
                 </div>
                 
             </div>
@@ -1641,34 +1641,31 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:sabahmishel@walla.com">sabahmishel@walla.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:054-5538268">054-5538268</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A8%D7%95%D7%98%D7%A9%D7%99%D7%9C%D7%93%2035%2C%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20%D7%9C%D7%A6%D7%99%D7%95%D7%9F%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">רוטשילד 35, ראשון לציון, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">ימים א’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://facebook.com/p/%D7%91%D7%96%D7%90%D7%9C%D7%99-%D7%A1%D7%9E%D7%99%D7%99%D7%9C-61579769098028" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com/bazaly_smile" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972545538268" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1685,7 +1682,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972545538268" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

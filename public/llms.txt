@@ -48,7 +48,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: sabahmishel@walla.com
+- Phone: 054-5538268
+- Phone (tel): tel:0545538268
+- Address: רוטשילד 35, ראשון לציון, ישראל
 
 ### Contact form
 - URL: https://example.com/contact
