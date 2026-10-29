@@ -8266,6 +8266,18 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 /* zappy-self-heal */
 .index-hero-section .hero-fade-img { filter: saturate(1.15) contrast(1.1) !important; }
 
+
+.index-hero-section .hero-fade-img {
+  filter: none;
+  object-position: 30% 30%;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .hero-fade-img {
+  filter: none;
+  object-position: 40% 28%;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
