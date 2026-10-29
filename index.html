@@ -742,6 +742,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <!-- Mickidum Accessibility Toolbar lazy-loaded by runtime -->
 
+
+
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
 .index-hero-section {
@@ -749,183 +751,167 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   overflow: visible;
   background-color: var(--bg-dark);
   background-image: linear-gradient(135deg, #0D2B5E 0%, #1B6FC8 60%, #2196F3 100%);
-  color: var(--text-light);
   padding-bottom: 80px;
   direction: rtl;
 }
 
-.index-hero-section__bg {
+.index-hero-section .index-hero-bg {
   position: absolute;
   inset: 0;
-  z-index: 0;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
-.index-hero-section__scrim {
+.index-hero-section .index-hero-scrim {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
   pointer-events: none;
-  background-image: linear-gradient(135deg, rgba(13,43,94,0.92) 0%, rgba(27,111,200,0.85) 100%);
+  background-image: linear-gradient(to left, rgba(13, 43, 94, 0.52) 0%, rgba(13, 43, 94, 0.35) 40%, rgba(13, 43, 94, 0.08) 70%, rgba(13, 43, 94, 0.02) 100%);
 }
 
-.index-hero-section__container {
+.index-hero-section .index-hero-container {
   position: relative;
   z-index: 10;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 24px 60px;
+  padding: 160px 24px 60px;
   text-align: right;
-  direction: rtl;
 }
 
-.index-hero-section__content {
-  max-width: 700px;
+.index-hero-section .index-hero-content {
+  max-width: 680px;
+  margin-inline-start: auto;
 }
 
-.index-hero-section__eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+.index-hero-section .index-hero-eyebrow {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 8px 20px;
+  border-radius: 100px;
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 100px;
-  padding: 8px 16px;
-  margin-bottom: 24px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--text-light);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  color: var(--text-light);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
-.index-hero-section__eyebrow svg {
-  width: 18px;
-  height: 18px;
-  color: var(--accent);
-  flex-shrink: 0;
-}
-
-.index-hero-section__title {
+.index-hero-section h1 {margin: 0 0 20px;
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  line-height: 1.2;
-  color: var(--text-light);
+  line-height: 1.15;
+  color: var(--text-light);}
+
+.index-hero-section h3 {
   margin: 0 0 20px;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
-}
-
-.index-hero-section__subtitle {
   font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.3;
+  font-weight: 500;
+  line-height: 1.4;
   color: var(--text-light);
-  margin: 0 0 16px;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
 }
 
-.index-hero-section__description {
+.index-hero-section p {
+  margin: 0 0 32px;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--text-light);
-  margin: 0 0 32px;
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
 }
 
-.index-hero-section__actions {
+.index-hero-section .index-hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-bottom: 40px;
+  justify-content: flex-start;
+  margin-bottom: 48px;
 }
 
-.index-hero-section__btn {
+.index-hero-section .index-hero-btn-primary,
+.index-hero-section .index-hero-btn-whatsapp {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   padding: 14px 28px;
   border-radius: 100px;
   font-weight: 600;
   font-size: 1rem;
   text-decoration: none;
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.index-hero-section .index-hero-btn-primary {
+  background: var(--accent);
+  color: #FFFFFF;
   border: none;
 }
 
-.index-hero-section__btn--primary {
-  background: #4CAF50;
-  color: #fff;
-  box-shadow: 0 8px 24px rgba(76, 175, 80, 0.35);
+.index-hero-section .index-hero-btn-primary:hover {
+  background: #16a34a;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(24, 169, 87, 0.35);
 }
 
-.index-hero-section__btn--primary:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(76, 175, 80, 0.45);
-}
-
-.index-hero-section__btn--whatsapp {
+.index-hero-section .index-hero-btn-whatsapp {
   background: #25D366;
-  color: #fff;
-  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.35);
+  color: #FFFFFF;
+  border: none;
 }
 
-.index-hero-section__btn--whatsapp:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(37, 211, 102, 0.45);
+.index-hero-section .index-hero-btn-whatsapp:hover {
+  background: #1fb959;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(37, 211, 102, 0.35);
 }
 
-.index-hero-section__btn svg {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-}
-
-.index-hero-section__trust {
+.index-hero-section .index-hero-stats {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  padding-top: 24px;
+  gap: 32px;
+  justify-content: flex-start;
+  padding-top: 32px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.index-hero-section__trust-item {
+.index-hero-section .index-hero-stat {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 140px;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 120px;
 }
 
-.index-hero-section__trust-item svg {
-  width: 32px;
-  height: 32px;
-  color: var(--accent);
-  flex-shrink: 0;
-}
-
-.index-hero-section__trust-item strong {
-  display: block;
-  font-size: 1.5rem;
+.index-hero-section .index-hero-stat-number {
+  font-size: 2.5rem;
   font-weight: 800;
+  line-height: 1;
   color: var(--text-light);
-  line-height: 1.2;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
-.index-hero-section__trust-item span {
-  display: block;
-  font-size: 0.8125rem;
+.index-hero-section .index-hero-stat-label {
+  font-size: 0.875rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.4;
+  color: var(--text-light);
+  opacity: 0.85;
 }
 
-.index-hero-section__divider-wrapper {
+.index-hero-section .index-hero-divider-wrapper {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -935,7 +921,7 @@
   z-index: 5;
 }
 
-.index-hero-section__divider-wrapper svg {
+.index-hero-section .index-hero-divider-wrapper svg {
   display: block;
   width: 100%;
   height: 100%;
@@ -947,40 +933,61 @@
     padding-bottom: 60px;
   }
 
-  .index-hero-section__container {
+  .index-hero-section .index-hero-container {
     padding: 100px 16px 40px;
   }
 
-  .index-hero-section__title {
+  .index-hero-section h1 {
     font-size: 2.25rem;
     line-height: 1.25;
   }
 
-  .index-hero-section__subtitle {
+  .index-hero-section h3 {
     font-size: 1.25rem;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
-  .index-hero-section__actions {
+  .index-hero-section p {
+    font-size: 1rem;
+  }
+
+  .index-hero-section .index-hero-actions {
     flex-direction: column;
     align-items: stretch;
+    gap: 12px;
   }
 
-  .index-hero-section__btn {
+  .index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-whatsapp {
     justify-content: center;
+    width: 100%;
   }
 
-  .index-hero-section__trust {
-    gap: 16px;
-    flex-direction: column;
+  .index-hero-section .index-hero-stats {
+    gap: 20px;
+    justify-content: space-between;
   }
 
-  .index-hero-section__trust-item {
-    min-width: 0;
+  .index-hero-section .index-hero-stat {
+    min-width: 90px;
   }
 
-  .index-hero-section__divider-wrapper {
+  .index-hero-section .index-hero-stat-number {
+    font-size: 2rem;
+  }
+
+  .index-hero-section .index-hero-divider-wrapper {
     height: 60px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-hero-section .index-hero-container {
+    padding: 140px 32px 60px;
+  }
+
+  .index-hero-section h1 {
+    font-size: 2.75rem;
   }
 }
 
@@ -992,6 +999,8 @@
 @media (max-width: 768px) {
   .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
 }
+
+/* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
 
 </style>
     <style id="zappy-critical-above-fold-css">
@@ -1623,67 +1632,42 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   
   <main id="main">
     <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" data-zappy-section="true" id="index-hero-section">
-  <div class="index-hero-section__bg" style="background-image: url('assets/site-image-index-hero-image-1.webp'); background-size: cover; background-position: center;"></div>
-  <div class="index-hero-section__scrim" aria-hidden="true"></div>
-  <div class="index-hero-section__container">
-    <div class="index-hero-section__content">
-      <div class="index-hero-section__eyebrow">
-        <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2L13.09 8.26L22 9.27L15 14.14L16.18 21.02L12 17.77L7.82 21.02L9 14.14L2 9.27L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
-        </svg>
-        <span>25 שנות ניסיון. אלפי שתלים. סיבה חדשה לחייך.</span>
-      </div>
-      <h1 class="index-hero-section__title">הגיע הזמן לחזור לחייך בביטחון.</h1>
-      <h3 class="index-hero-section__subtitle">ב־Bazaly Smile, המרכז להשתלות שיניים בזאליות בראשון לציון, אנו מתמחים בשיקום הפה באמצעות שיטות השתלה מתקדמות.</h3>
-      <p class="index-hero-section__description">גם אם נאמר לכם שאין מספיק עצם להשתלות, או שאתם חוששים מתהליך שיקום ארוך ומורכב – כדאי להכיר אפשרות נוספת.</p>
-      <div class="index-hero-section__actions">
-        <a href="#contact" class="index-hero-section__btn index-hero-section__btn--primary" style="color: #1A1A1A !important">
-          קביעת פגישת ייעוץ
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
+  <div class="index-hero-bg" aria-hidden="true" style="background-image: url('assets/site-image-index-hero-image-1.webp');  background-size: cover; background-position: center;"></div>
+  <div class="index-hero-scrim" aria-hidden="true"></div>
+  <div class="index-hero-container">
+    <div class="index-hero-content">
+      <span class="index-hero-eyebrow">25 שנות ניסיון. אלפי שתלים. סיבה חדשה לחייך.</span>
+      <h1>הגיע הזמן לחזור לחייך בביטחון.</h1>
+      <h3>ב־Bazaly Smile, המרכז להשתלות שיניים בזאליות בראשון לציון, אנו מתמחים בשיקום הפה באמצעות שיטות השתלה מתקדמות.</h3>
+      <p>גם אם נאמר לכם שאין מספיק עצם להשתלות, או שאתם חוששים מתהליך שיקום ארוך ומורכב – כדאי להכיר אפשרות נוספת.</p>
+      <div class="index-hero-actions">
+        <a href="#contact" class="index-hero-btn-primary">
+          <span>קביעת פגישת ייעוץ</span>
+          <i class="fas fa-arrow-left" aria-hidden="true"></i>
         </a>
-        <a href="https://wa.me/972545538268" class="index-hero-section__btn index-hero-section__btn--whatsapp" target="_blank" rel="noopener" style="color: #1A1A1A !important">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.2986 20.5 8.70667 20.0048 7.35524 19.1374L3.5 20.5L4.86259 16.6448C3.99518 15.2933 3.5 13.7014 3.5 12C3.5 7.30558 7.30558 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
-            <path d="M9 9.5C9 9.22386 9.22386 9 9.5 9H10.5C10.7761 9 11 9.22386 11 9.5V14.5C11 14.7761 11.2239 15 11.5 15H12.5C12.7761 15 13 15.2239 13 15.5V16.5C13 16.7761 12.7761 17 12.5 17H11.5C10.6716 17 10 16.3284 10 15.5V10.5C10 10.2239 9.77614 10 9.5 10H9.5C9.22386 10 9 9.77614 9 9.5Z" fill="currentColor"></path>
-          </svg>
-          דברו איתנו בוואטסאפ
+        <a href="https://wa.me/972545538268" target="_blank" rel="noopener" class="index-hero-btn-whatsapp">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          <span>דברו איתנו בוואטסאפ</span>
         </a>
       </div>
-      <div class="index-hero-section__trust">
-        <div class="index-hero-section__trust-item">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L13.09 8.26L22 9.27L15 14.14L16.18 21.02L12 17.77L7.82 21.02L9 14.14L2 9.27L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
-          </svg>
-          <div>
-            <strong>25+</strong>
-            <span>שנות ניסיון</span>
-          </div>
+      <div class="index-hero-stats">
+        <div class="index-hero-stat">
+          <span class="index-hero-stat-number">25</span>
+          <span class="index-hero-stat-label">שנות ניסיון</span>
         </div>
-        <div class="index-hero-section__trust-item">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L13.09 8.26L22 9.27L15 14.14L16.18 21.02L12 17.77L7.82 21.02L9 14.14L2 9.27L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
-          </svg>
-          <div>
-            <strong>12,000+</strong>
-            <span>שתלים בוצעו</span>
-          </div>
+        <div class="index-hero-stat">
+          <span class="index-hero-stat-number">12,000+</span>
+          <span class="index-hero-stat-label">שתלים בוצעו</span>
         </div>
-        <div class="index-hero-section__trust-item">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L13.09 8.26L22 9.27L15 14.14L16.18 21.02L12 17.77L7.82 21.02L9 14.14L2 9.27L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
-          </svg>
-          <div>
-            <strong>100%</strong>
-            <span>שיקום באותו יום</span>
-          </div>
+        <div class="index-hero-stat">
+          <span class="index-hero-stat-number">1</span>
+          <span class="index-hero-stat-label">שיקום באותו יום</span>
         </div>
       </div>
     </div>
   </div>
-  <div class="index-hero-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <div class="index-hero-divider-wrapper" aria-hidden="true">
+    <svg data-no-icon-edit="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,40 Q50,35 100,42 T200,38 Q250,42 300,35 T400,40 Q450,38 500,42 T600,35 Q650,40 700,38 T800,42 Q850,35 900,40 T1000,38 Q1050,42 1100,35 T1200,40 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
