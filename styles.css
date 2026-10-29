@@ -8205,6 +8205,52 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+@media (max-width: 768px) {
+.index-hero-section .hero-fade-content {
+  background-color: transparent;
+  color: #FFFFFF;
+  text-align: right;
+  align-items: flex-start;
+}
+
+.index-hero-section .hero-fade-img {
+  object-position: 50% 50%;
+}
+
+.index-hero-section .hero-eyebrow {
+  color: #FFFFFF;
+}
+
+.index-hero-section .display-xl {
+  color: #FFFFFF;
+}
+
+.index-hero-section .hero-subtitle {
+  color: #FFFFFF;
+}
+
+.index-hero-section .hero-body {
+  color: rgba(255,255,255,0.92);
+}
+
+.index-hero-section .hero-phone {
+  color: #FFFFFF;
+}
+
+.index-hero-section .hero-phone a {
+  color: #FFFFFF;
+  border-bottom-color: var(--accent);
+}
+
+.index-hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(13,43,94,0.72) 0%, rgba(13,43,94,0.35) 60%, rgba(13,43,94,0.55) 100%);
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
