@@ -8286,6 +8286,12 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 /* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
 
+
+@media (max-width: 768px) {
+html[dir="rtl"] section[class*="hero"]:not([data-zappy-bg-overlay-opacity]) > [class*="bg-wrapper"] [class*="scrim"] {
+  background-image: linear-gradient(135deg, rgba(13, 43, 94, 0.18) 0%, rgba(27, 111, 200, 0.10) 55%, rgba(33, 150, 243, 0.02) 100%) !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
