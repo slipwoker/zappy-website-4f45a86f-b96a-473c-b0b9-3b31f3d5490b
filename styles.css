@@ -2554,10 +2554,11 @@ main { flex: 1 0 auto; }
   }
 
   .index-hero-section .hero-fade-content {
-    width: 100%;
-    padding: 0;
-    gap: 12px;
-  }
+  width: 100%;
+  padding: 28px 20px 36px !important;
+  gap: 12px;
+  background-color: #FFFFFF !important;
+}
 
   .index-hero-section .display-xl {
     font-size: 2.5rem;
@@ -8294,6 +8295,39 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   background-color: transparent !important;
   color: var(--background-color, var(--background, var(--bg-light, var(--background-color, var(--background, var(--bg-light, #12355B)))))) !important;
   padding: 24px 20px 32px !important;
+}
+}
+
+@media (max-width: 768px) {
+#index-hero-section section[data-hero-treatment="fade-bleed"] > img:first-child {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 320px !important;
+  max-height: 60vh !important;
+  object-fit: cover !important;
+  object-position: 50% 25% !important;
+  z-index: 0 !important;
+}
+
+#index-hero-section section[data-hero-treatment="fade-bleed"] {
+  display: block !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  padding: 0 !important;
+  min-height: auto !important;
+}
+
+#index-hero-section section[data-hero-treatment="fade-bleed"] .hero-fade-content {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  text-align: right !important;
+  background-color: #FFFFFF !important;
 }
 }
 /* mobile-submenu-overflow-fix */
