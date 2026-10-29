@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://example.com
+https://bazaly-smile.zappy5.app
 טיפול שיניים דחוף ומשפחתי במרכז מתקדם בראשון לציון. מעל 12,000 שתלים ב־25 שנות ניסיון. קבעו פגישת ייעוץ עוד היום וחזרו לחייך בביטחון.
 
 ### שתלים בזאליים
-https://example.com/basal-implants
+https://bazaly-smile.zappy5.app/basal-implants
 שתלים בזאליים בשיטה ייחודית שמעגנת שתלים בשכבות עצם עמוקות — ללא הרמת סינוס וללא השתלת עצם. פתרון גם למי שנאמר לו שאין סיכוי. גלו איך.
 
 ### תוצאות וסיפורים
-https://example.com/results
+https://bazaly-smile.zappy5.app/results
 סיפורי מטופלים אמיתיים שעברו שיקום פה מלא אצלנו. צפו בתוצאות של שתלים בזאליים שהחזירו את החיוך והביטחון. ההצלחה שלהם יכולה להיות גם שלכם.
 
 ### אודות המרפאה
-https://example.com/about
+https://bazaly-smile.zappy5.app/about
 הכירו את הצוות שמאחורי מעל 12,000 שתלים מוצלחים. ניסיון של רבע מאה, גישה אישית וטכנולוגיה מתקדמת בראשון לציון. בואו לפגוש אותנו מקרוב.
 
 ### צור קשר
-https://example.com/contact
+https://bazaly-smile.zappy5.app/contact
 מוכנים לשמוע חוות דעת שנייה על השיניים שלכם? צרו קשר עוד היום וקבעו פגישת ייעוץ אישית עם המומחים שלנו בראשון לציון. אנחנו כאן בשבילכם.
 
 ### תודה שפניתם אלינו | Bazaly Smile
-https://example.com/thank-you
+https://bazaly-smile.zappy5.app/thank-you
 Bazaly Smile - תודה שפניתם אלינו | Bazaly Smile
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://bazaly-smile.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://bazaly-smile.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://bazaly-smile.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -54,8 +54,8 @@ Information about WCAG compliance and accessibility features.
 - Address: רוטשילד 35, ראשון לציון, ישראל
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://bazaly-smile.zappy5.app/contact
+- Endpoint: https://bazaly-smile.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -85,6 +85,6 @@ Dental Care
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://bazaly-smile.zappy5.app/sitemap.xml
+- Robots: https://bazaly-smile.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://bazaly-smile.zappy5.app/llms-full.txt
