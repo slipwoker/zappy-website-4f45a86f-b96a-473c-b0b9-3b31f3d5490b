@@ -886,10 +886,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -1370,23 +1370,20 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim">
-  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A warm, professional photograph of a mature Israeli couple smiling confidently in a bright, modern dental clinic. The couple is positioned on the left side of the frame, with a clean, softly blurred dental operatory and large windows with daylight in the background. The image conveys health, happiness, and trust." width="600" height="400" src="/assets/site-image-index-hero-image-1.webp" alt="בני זוג מחייכים בביטחון במרפאת שיניים מודרנית" decoding="async">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim" id="index-hero-section">
+  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A warm, professional photograph of a mature Israeli couple smiling confidently in a bright, modern dental clinic. The couple is positioned on the left side of the frame, with a clean, softly blurred dental operatory and large windows with daylight in the background. The image conveys health, happiness, and trust." width="600" height="400" src="/assets/site-image-index-hero-image-1.webp" alt="בני זוג מחייכים בביטחון במרפאת שיניים מודרנית" data-hero-background="true" data-element-type="image" data-element-id="img-1793261863869-ywzcy38c9" decoding="async">
 
   <div class="hero-fade-content">
-    <p class="hero-eyebrow">25 שנות ניסיון. אלפי שתלים. סיבה חדשה לחייך.</p>
+    <p class="hero-eyebrow" style="color: rgb(18, 53, 91) !important;">25 שנות ניסיון. אלפי שתלים. סיבה חדשה לחייך.</p>
     <h1 class="display-xl">הגיע הזמן לחזור לחייך בביטחון.</h1>
-    <h3 class="hero-subtitle">ב־Bazaly Smile, המרכז להשתלות שיניים בזאליות בראשון לציון, אנו מתמחים בשיקום הפה באמצעות שיטות השתלה מתקדמות, עם ניסיון של 25 שנים בתחום.</h3>
-    <p class="hero-body">גם אם נאמר לכם שאין מספיק עצם להשתלות, או שאתם חוששים מתהליך שיקום ארוך ומורכב – כדאי להכיר אפשרות נוספת.</p>
+    <h3 class="hero-subtitle" style="color: rgb(18, 53, 91) !important;">ב־Bazaly Smile, המרכז להשתלות שיניים בזאליות בראשון לציון, אנו מתמחים בשיקום הפה באמצעות שיטות השתלה מתקדמות.</h3>
+    <p class="hero-body" style="color: rgb(18, 53, 91) !important;">גם אם נאמר לכם שאין מספיק עצם להשתלות, או שאתם חוששים מתהליך שיקום ארוך ומורכב – כדאי להכיר אפשרות נוספת.</p>
     
-    <div class="hero-phone">
-      <i class="fas fa-phone-alt" aria-hidden="true"></i>
-      <span>חייגו עכשיו: <a href="tel:0545538268">054-5538268</a></span>
-    </div>
+    
 
     <div class="hero-cta-row">
-      <a href="#contact" class="btn btn-primary">קביעת פגישת ייעוץ</a>
-      <a href="https://wa.me/972545538268" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i> דברו איתנו בוואטסאפ</a>
+      <a href="#contact" class="btn btn-primary" data-element-type="button" data-element-id="btn-1793261863858-jnfsb4urt" data-native-element="true">קביעת פגישת ייעוץ</a>
+      <a href="https://wa.me/972545538268" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="color: rgb(18, 53, 91) !important;" data-element-type="button" data-element-id="btn-1793261863858-uulhnv2kj" data-native-element="true"><i class="fab fa-whatsapp" aria-hidden="true"></i> דברו איתנו בוואטסאפ</a>
     </div>
   </div>
 
