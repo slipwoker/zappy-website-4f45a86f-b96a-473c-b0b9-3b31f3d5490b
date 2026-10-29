@@ -8251,6 +8251,21 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   background: linear-gradient(180deg, rgba(13,43,94,0.72) 0%, rgba(13,43,94,0.35) 60%, rgba(13,43,94,0.55) 100%);
 }
 }
+
+.index-hero-section .hero-fade-img {
+  filter: saturate(1.15) contrast(1.1);
+  object-position: 30% 30%;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .hero-fade-img {
+  filter: saturate(1.18) contrast(1.12);
+  object-position: 40% 28%;
+}
+}
+/* zappy-self-heal */
+.index-hero-section .hero-fade-img { filter: saturate(1.15) contrast(1.1) !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
